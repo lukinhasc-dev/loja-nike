@@ -1,0 +1,123 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+html {
+    background: linear-gradient(180deg, #FF9D00 49%, #955C00 100%);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 2% 5% 0 5%;
+}
+
+/*Barra de Navegação*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-nike,
+#logo-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+#logo-nike:hover, #logo-perfil:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.04);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 150px;
+}
+
+nav ul li {
+    cursor: pointer;
+    list-style: none;
+    font-size: 35px;
+    font-weight: bold;
+    background: linear-gradient(180deg, #6F01BE 0%, #330058 72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.03);
+    text-decoration: underline solid #330058;
+}
+
+/*Airmax Apresentação*/
+.airmax-tn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 150px;
+}
+
+.airmax-ap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#foto-airmaxtn {
+    max-height: 625px;
+    border: solid 2px #330058;
+    margin-top: 50px;
+    border-radius: 350px;
+}
+
+.titulo-airmax {
+    font-size: 96px;
+    line-height: 100%;
+    background: linear-gradient(180deg, #6F01BE 0%, #330058 72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-airmax {
+    font-size: 33px;
+    margin-top: 30px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #6F01BE, #330058);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buy-button {
+    margin-top: 70px;
+    width: 390px;
+    height: 100px;
+    background: linear-gradient(180deg, #6F01BE 0%, #330058 72%);
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FF9D00;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.03);
+}
