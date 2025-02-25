@@ -1,4 +1,6 @@
 # Loja Nike 🏷️
+![Loja Nike](img/loja-banner.png)
+
 
 ## Descrição
 
