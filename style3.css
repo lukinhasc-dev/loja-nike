@@ -66,10 +66,11 @@ nav ul li:hover {
 /*Airmax Apresentação*/
 .airmax-tn {
     display: flex;
-    align-items: flex-start; 
+    align-items: center; 
     justify-content: center;
-    margin-top: 50px;
-    gap: 55px;
+    flex-direction: row;
+    margin-top: 4%;
+    gap: 3%;
 }
 
 .airmax-ap {
@@ -80,14 +81,12 @@ nav ul li:hover {
 }
 
 #foto-airmaxtn {
-    max-height: 625px;
-    border-radius: 400px;
-    align-self: center;
+    max-height: 540px;
+    border-radius: 180px;
 }
 
 .titulo-airmax {
     font-size: 48px;
-    line-height: 100%;
     background: linear-gradient(180deg, #FF9D00 43%, #995E00 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -105,7 +104,7 @@ nav ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 14px;
+    padding-top: 10px;
 }
 
 .number-1 {
@@ -125,7 +124,7 @@ nav ul li:hover {
     width: 30px;
     height: 30px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 800;
     color: #FF9D00;
     background-color: #6F01BE;
     border-radius: 100%;
@@ -133,10 +132,12 @@ nav ul li:hover {
 
 .buttons-number {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-top: 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
 }
 
 .numeracoes-button {
@@ -152,7 +153,6 @@ nav ul li:hover {
 }
 
 .buy-button, .buy-button2, .buy-button3, .buy-button4, .buy-button5{
-    margin-bottom: 35px;
     width: 480px;
     height: 82px;
     background: transparent;
@@ -173,7 +173,6 @@ nav ul li:hover {
     height: 95px;
     color: rgb(47, 206, 82);
     background: linear-gradient(180deg, #019125 25%, #003f0b 72%);
-
 }
 
 .buy-button:hover, .buy-button2:hover, .buy-button3:hover, .buy-button4:hover, .buy-button5:hover {
@@ -186,40 +185,63 @@ nav ul li:hover {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 55px;
-    border-left: 2px solid #FF9D00;
 }
 
 .details-pay {
     font-size: 35px;
     font-weight: bold;
+    margin-bottom: 10px;
     background: linear-gradient(180deg, #FF9D00 43%, #995E00 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
-.airmax-preco, .frete-gratis, .valor-total {
+.airmax-preco, .frete-gratis, .valor-total{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    font-size: 30px;
-    font-weight: bold;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 32px;
+    font-weight: bolder;
     background: linear-gradient(180deg, #FF9D00 43%, #995E00 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
+.frete-gratis {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.preco-airmax {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .valor-total {
-    padding-top: 3px;
+    padding-top: 20px;
     border-top: 2px solid #FF9D00;
 }
 
 .terms-pay {
     font-size: 21px;
     color: white;
+    margin-top: 25px;
     font-weight: 300;
     text-align: justify;
+}
 
+.buy-button6 {
+    width: 400px;
+    height: 80px;
+    border-radius: 45px;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    place-self: center;
+    background-clip: text;
+    text-align: center;
+    background: linear-gradient(180deg, #FF9D00 25%, #995E00 72%);
+    color: #6F01BE;
 }
