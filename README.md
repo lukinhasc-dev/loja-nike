@@ -17,6 +17,11 @@ O site consiste em uma landing page simples com 3 páginas:
 Você pode visualizar o protótipo original no Figma através do seguinte link:  
 [Protótipo da Loja Nike - Figma](https://www.figma.com/proto/o7sbTefscihg77lN7TOEyG/Aula-01?node-id=98-2&t=pIzlUawn9smqGqfQ-1)
 
+## Link do Deploy 🚀
+
+Veja o projeto em produção no seguinte link:  
+[Deploy da Loja Nike - Vercel](https://loja-nike-nine.vercel.app/)
+
 ## Tecnologias Utilizadas ⚙️
 
 - **HTML**: Estruturação do conteúdo da página.
