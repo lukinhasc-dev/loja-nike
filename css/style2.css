@@ -93,8 +93,8 @@ nav ul li:hover {
 }
 
 .text-airmax {
-    font-size: 17px;
-    margin-top: 8px;
+    font-size: 18.3px;
+    margin-top: 7px;
     font-weight: 300;
     text-align: justify;
     color: white;
@@ -105,7 +105,7 @@ nav ul li:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .numeracoes-button {
@@ -137,11 +137,16 @@ nav ul li:hover {
 }
 
 .buy-button5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    color: #019125;
     width: 530px;
-    height: 95px;
-    color: rgb(47, 206, 82);
+    height: 90px;
+    font-size: 2.3rem;
     background: linear-gradient(180deg, #019125 25%, #003f0b 72%);
-
 }
 
 .buy-button:hover, .buy-button2:hover, .buy-button3:hover, .buy-button4:hover, .buy-button5:hover {

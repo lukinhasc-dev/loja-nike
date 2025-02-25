@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style3.css">
-    <title>Nike Oficial</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="icon" type="image/png" href="img/logo-nike.png">
+    <title>Carrinho de Compra</title>
+    
 </head>
 
 <body>
     <header>
-        <img src="logo-nike.png" alt="logo-nike" id="logo-nike">
+        <img src="img/logo-nike.png" alt="logo-nike" id="logo-nike">
 
         <nav>
             <ul>
@@ -20,14 +22,14 @@
             </ul>
         </nav>
         <div class="testee">
-            <img src="logo-perfil.png" alt="foto-perfil" id="logo-perfil">
+            <img src="img/logo-perfil.png" alt="foto-perfil" id="logo-perfil">
 
         </div>
     </header>
 
     <main>
         <section class="airmax-tn">
-            <img src="tenis-airmax3.png" alt="airmax-tn" id="foto-airmaxtn">
+            <img src="img/tenis-airmax3.png" alt="airmax-tn" id="foto-airmaxtn">
 
             <div class="airmax-ap">
                 <h3 class="titulo-airmax">Air Max TN Plus</h3>
@@ -49,11 +51,14 @@
                 </div>
 
                 <div class="buttons-number">
-                    <button class="buy-button">Rua</button>
-                    <button class="buy-button2">Bairro</button>
-                    <button class="buy-button3">CEP</button>
-                    <button class="buy-button4">Número</button>
+                    <input class="buy-button" type="text" placeholder="Rua">
+                    <input class="buy-button" type="text" placeholder="Bairro">
+                    <input class="buy-button" type="text" placeholder="CEP" maxlength="9">
+                    <input class="buy-button" type="number" placeholder="Número">
                 </div>
+            </div>
+
+            <div class="linha-laranja">
             </div>
 
             <section class="pay-airmax">
